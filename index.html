@@ -1,0 +1,42 @@
+
+<html lang="esp">
+<head>
+	<meta charset="UTF-8">
+	<title>Encriptador de Texto</title>
+	<link rel="stylesheet" href="estilo.css">	
+</head>
+<body background="imagenes/fondo.jpg">
+	<header>
+		<img src="./imagenes/icon.png">
+	</header>
+	<main>
+		<section>
+
+			<textarea type="text" class="input-text" id="textAreaIngreso" cols="40" rows="5" placeholder="Ingrese el texto aqui"></textarea>
+			
+			<h6><img src="imagenes/aviso.png">Solo letras minusculas y sin acentos</h6>
+			<div>	
+				<button type="button" class="boton" id="btnEncriptar">Encriptar</button>
+				<button type="button" class="boton" id="btnDesencriptar">Desencriptar</button>	
+			</div>	
+		</section>
+
+		
+		<section>
+		
+			<textarea type="text" class="input-text-area" id="textAreaMuestra" cols="18" rows="5"></textarea>
+		
+		<img class="muneco" src="./imagenes/muneco.png">
+		<div class="div_sec2">
+		<textarea type="text" class="input-text-mensaje" id="textAreaMensaje" cols="18" rows="2"></textarea>	
+		<button type="button" class="botonCopiar" id="btnCopiar">Copiar Texto</button>
+		<br><br>
+		<p class="parrafo">©ALURA-ORACLE ONE: Sebastián Perea</p>
+		</div>
+		</section>
+	</main>
+	
+</body>
+<script src="script.js"></script>
+</html>
+
